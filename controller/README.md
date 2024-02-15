@@ -1,6 +1,6 @@
 # Lego Carousel Controller Program
 
-![Lego Carousel- Controller Block Program](Lego-Carousel-Controller-Block-Program.png)
+![Lego Carousel Controller Block Program](Lego-Carousel-Controller-Block-Program.png)
 
 Also available:
 
