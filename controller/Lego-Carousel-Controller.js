@@ -5,6 +5,10 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
     radio.sendValue("start", maxSpeed)
 })
 
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    radio.sendValue("stop", 0)
+})
+
 input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
     
     if (maxSpeed <= 100) {
@@ -13,10 +17,6 @@ input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
         maxSpeed = 10
     }
     
-})
-
-input.onButtonPressed(Button.B, function on_button_pressed_b() {
-    radio.sendValue("stop", 0)
 })
 
 basic.forever(function on_forever() {
